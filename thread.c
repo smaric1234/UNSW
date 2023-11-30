@@ -18,7 +18,7 @@ void* PrintHello(void* threadid)
 {
     /* Setup Local Vars and Handle void* */
     long* tid = threadid;
-    long t;
+    long s;
     long numprint = 10;
     int abc = 0;
 
