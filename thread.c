@@ -19,7 +19,7 @@ void* PrintHello(void* threadid)
     /* Setup Local Vars and Handle void* */
     long* tid = threadid;
     long t;
-    long numprint = 6;
+    long numprint = 10;
 
     /* Print hello numprint times */
     for(t=0; t<numprint; t++)
