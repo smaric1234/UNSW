@@ -20,6 +20,7 @@ void* PrintHello(void* threadid)
     long* tid = threadid;
     long t;
     long numprint = 10;
+    int abc = 0;
 
     /* Print hello numprint times */
     for(t=0; t<numprint; t++)
